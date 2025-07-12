@@ -1,0 +1,16 @@
+.cartoes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cartao {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  background-color: blue;
+  border-radius: 20px;
+  align-items: start;
+  justify-content: center;
+  color: wheat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
